@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sivaBoja_1">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/okvir_2"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:id="@+id/nazivFilma"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/bojaSlova"
+                    android:textSize="18dp"
+                    android:maxLines ="2"
+                    android:layout_margin="15dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/detalji"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/name"
+                android:background="@drawable/okvir_2"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:id="@+id/details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Detalji:"
+                    android:fontFamily="serif"
+                    android:textColor="@color/bojaSlova"
+                    android:layout_margin="10dp"/>
+
+                <EditText
+                    android:layout_below="@id/details"
+                    android:layout_margin="15dp"
+                    android:id="@id/unosDetalja"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:maxLines="10"
+                    android:textColor="@color/bojaSlova"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/datum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/detalji"
+                android:layout_margin="15dp"
+                android:background="@drawable/okvir_2">
+
+                <DatePicker
+                    android:id="@+id/datePicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp">
+
+                </DatePicker>
+            </RelativeLayout>
+
+            <Button
+                android:id="@id/zapamtiButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/datum"
+                android:background="@drawable/okvir_3"
+                android:text="@string/zapamtiFilm"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

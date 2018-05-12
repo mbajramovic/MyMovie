@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bojaSlova">
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/slikaGlumca"
+        android:layout_toRightOf="@+id/slikaGlumca"
+        android:background="@color/bojaSlova"
+        android:fontFamily="serif"
+        android:maxLines="2"
+        android:text="TextView"
+        android:textColor="@color/bojaRating"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/slikaGlumca"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:src ="@drawable/spol_muski" />
+
+    <TextView
+        android:id="@+id/godinaRodjenja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/textView13"
+        android:fontFamily="serif"
+        android:text="TextView"
+        android:textColor="@color/bojaSlova2"
+        android:layout_toRightOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/godinaSmrti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/godinaRodjenja"
+        android:layout_toEndOf="@+id/textView13"
+        android:layout_toRightOf="@+id/textView13"
+        android:fontFamily="serif"
+        android:text="TextView"
+        android:textColor="@color/bojaSlova2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/slikaGlumca"
+        android:background="@color/pozadina"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="IMBd:"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/podijeliButton"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:background="@color/pozadina"
+                android:fontFamily="serif"
+                android:text="@string/podijeliButton"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="69dp" />
+
+            <Button
+                android:id="@+id/bookmarkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/pozadina"
+                android:fontFamily="serif"
+                android:text="BOOKMARK"
+                android:layout_alignBaseline="@+id/podijeliButton"
+                android:layout_alignBottom="@+id/podijeliButton"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/biografija"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif"
+                android:inputType="textMultiLine"
+                android:maxLines="500"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/imbdStranica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/biografija"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="13dp"
+                android:fontFamily="serif"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imbdStranica"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="serif"
+                android:text="@string/biografija"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/spol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/godinaSmrti"
+        android:layout_toEndOf="@+id/textView36"
+        android:fontFamily="serif"
+        android:text="TextView"
+        android:textColor="@color/bojaSlova2"
+        android:layout_alignLeft="@+id/godinaSmrti"
+        android:layout_alignStart="@+id/godinaSmrti" />
+
+    <TextView
+        android:id="@+id/mjestoRodjenja"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_marginBottom="11dp"
+        android:layout_toEndOf="@+id/slikaGlumca"
+        android:layout_toLeftOf="@+id/rating"
+        android:layout_toRightOf="@+id/slikaGlumca"
+        android:fontFamily="serif"
+        android:maxLines="2"
+        android:text="TextView"
+        android:textColor="@color/bojaSlova2" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/mjestoRodjenja"
+        android:fontFamily="serif"
+        android:text="TextView"
+        android:textColor="@color/bojaRating" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/godinaSmrti"
+        android:layout_toRightOf="@+id/slikaGlumca"
+        android:fontFamily="serif"
+        android:text="@string/godinaRodjenja"
+        android:textColor="@color/bojaSlova2" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:text="@string/godinaSmrti"
+        android:fontFamily="serif"
+        android:textColor="@color/bojaSlova2"
+        android:layout_toLeftOf="@+id/godinaRodjenja"
+        android:layout_toRightOf="@+id/slikaGlumca"
+        android:layout_toEndOf="@+id/slikaGlumca" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/spol"
+        android:text="@string/spol"
+        android:fontFamily="serif"
+        android:textColor="@color/bojaSlova2"
+        android:layout_below="@+id/godinaSmrti"
+        android:layout_toRightOf="@+id/slikaGlumca"
+        android:layout_toEndOf="@+id/slikaGlumca" />
+
+</RelativeLayout>

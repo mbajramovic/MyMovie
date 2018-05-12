@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/glumciButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/glumciButton"
+        android:background="@color/bojaRating"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="145dp"
+        android:layout_marginStart="145dp"
+        />
+
+    <Button
+        android:id="@+id/ostaloButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ostaloButton"
+        android:background="@color/bojaRating"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/filmButton"
+        android:layout_toEndOf="@+id/filmButton" />
+
+    <Button
+        android:id="@+id/filmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:background="@color/bojaRating"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/glumciButton"
+        android:layout_toEndOf="@+id/glumciButton" />
+</RelativeLayout>

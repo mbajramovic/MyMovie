@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyMovie</string>
+    <string name="glumciButton">Actors  </string>
+    <string name="zanroviButton"> Genres   </string>
+    <string name="reziseriButton">Directors</string>
+    <string name="godinaRodjenja">Birth year:</string>
+    <string name="godinaSmrti">Death year:</string>
+    <string name="spol">Sex:</string>
+    <string name="biografija">Biography:</string>
+    <string name="ostaloButton">Other</string>
+    <string name="podijeliButton">SHARE</string>
+    <string name="muskiSpol">male</string>
+    <string name="zenskiSpol">female</string>
+    <string name="pretraziButton">Search</string>
+    <string name="zapamtiFilm">Save</string>
+    <string name="detaljiFilm">Details</string>
+    <string name="film">Movies</string>
+</resources>

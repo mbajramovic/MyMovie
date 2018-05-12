@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="zenskaBoja1">#FCE4EC</color>
+    <color name="zenskaBoja2">#CE93D8</color>
+    <color name="muskaBoja1">#C8E6C9</color>
+    <color name="muskaBoja2">#A5D6A7</color>
+    <color name="elementListePozadina">#616161</color>
+    <color name="bojaSlova">#FAFAFA</color>
+    <color name="bojaRating">#EF6C00</color>
+    <color name="bojaSlova2">#9E9E9E</color>
+    <color name="bojaSlova3">#757575</color>
+    <color name="sivaBoja">#9E9E9E</color>
+    <color name="pozadina">#F1F8E9</color>
+    <color name="dodatna_zenska">#CE93D8</color>
+    <color name="dodatna_muska">#53933f</color>
+    <color name="crna_boja">#000000</color>
+    <color name="sivaBoja_1">#484848</color>
+    <color name="rozaBoja_1"> #ff0066</color>
+    <color name="sivaBoja_2">#808080</color>
+</resources>

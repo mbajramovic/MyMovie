@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyMovie</string>
+    <string name="glumciButton"> Glumci  </string>
+    <string name="zanroviButton">Žanrovi  </string>
+    <string name="reziseriButton">Režiseri</string>
+    <string name="godinaRodjenja">Godina rođenja:</string>
+    <string name="godinaSmrti">Godina smrti:</string>
+    <string name="spol">Spol:</string>
+    <string name="biografija">Biografija:</string>
+    <string name="ostaloButton">Ostalo</string>
+    <string name="podijeliButton">PODIJELI</string>
+    <string name="muskiSpol">muški</string>
+    <string name="zenskiSpol">ženski</string>
+    <string name="pretraziButton">Pretraži</string>
+    <string name="zapamtiFilm">Zapamti</string>
+    <string name="detaljiFilm">Detalji</string>
+    <string name="film">Filmovi</string>
+</resources>
